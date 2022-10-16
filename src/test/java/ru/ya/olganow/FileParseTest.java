@@ -41,6 +41,7 @@ public class FileParseTest {
             if (entry.getName().contains(".xls")) {
                 try (InputStream inputStream = zf.getInputStream(entry)) {
                     XLS xls = new XLS(inputStream);
+                    System.out.println("");
                     assertThat(xls.excel.getSheetAt(0)
                             .getRow(1)
                             .getCell(1)
