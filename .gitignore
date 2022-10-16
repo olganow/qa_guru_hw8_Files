@@ -40,3 +40,5 @@ target/
 .vscode
 /gradlew
 /gradlew.bat
+/src/test/java/ru/ya/olganow/SelenideFileText.java
+/src/test/java/ru/ya/olganow/FileParseTestLesson.java

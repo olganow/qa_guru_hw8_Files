@@ -1,0 +1,15 @@
+{
+  "name": "Murzik",
+  "gender": "M",
+  "age": 5,
+  "isFriendlyCat": true,
+  "food": [
+    "row meet",
+    "milk"
+  ],
+  "document": {
+    "ID": "ABC 1234",
+    "issueDate": "12.12.2022"
+  },
+  "weight": 5
+}
