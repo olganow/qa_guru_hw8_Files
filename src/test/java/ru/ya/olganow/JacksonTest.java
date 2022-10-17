@@ -1,8 +1,6 @@
 package ru.ya.olganow;
 
-
 import com.fasterxml.jackson.databind.ObjectMapper;
-
 import org.junit.jupiter.api.Test;
 import ru.ya.olganow.model.Info;
 
@@ -10,10 +8,7 @@ import java.io.File;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-
 public class JacksonTest {
-
-   // ClassLoader cl = FileParseTest.class.getClassLoader();
 
     @Test
     void jsonCatTest() throws Exception {
@@ -23,9 +18,10 @@ public class JacksonTest {
         assertThat(info.name).isEqualTo("Matroskin");
         assertThat(info.owner).isEqualTo("Fedor");
         assertThat(info.age).isEqualTo(3);
+        assertThat(info.passport.id).isEqualTo("ABS123");
+        assertThat(info.passport.isValid);
 
     }
 
 }
-
 
